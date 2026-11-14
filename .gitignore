@@ -1,7 +1,17 @@
+# dependencias de node.js
 node_modules/
-.env
 
-#variable de entorno
+# variable de entorno
 .env
 .env.*
 
+# Permitir archivos de ejemplo
+.env.example
+
+# Logs
+.log
+npm-debug.log*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
